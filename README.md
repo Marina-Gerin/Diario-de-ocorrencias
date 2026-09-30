@@ -4,7 +4,31 @@ PI&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;details&gt;
 &lt;summary&gt;&lt;strong&gt;�� Sumário&lt;/strong&gt;&lt;/summary&gt;
 
-- [1. Introdução](#1-introdução)
+- [1. Introdução](O projeto propõe o desenvolvimento de um protótipo de aplicação Web para auxiliar
+na gestão das ocorrências, manutenções e equipamentos da unidade da FATEC.
+Atualmente, problemas relacionados a computadores, periféricos, cabos, notebooks
+e infraestrutura, como televisores, aparelhos de ar-condicionado, cadeiras e outros
+recursos das salas e laboratórios, podem apresentar dificuldades de comunicação,
+organização e acompanhamento entre professores, alunos e a equipe responsável
+pelo atendimento.
+Outro problema identificado está relacionado aos carrinhos de notebooks presentes
+em algumas salas e laboratórios. Cada carrinho possui aproximadamente 20
+notebooks, que precisam ser conferidos pelos professores no início e no final das
+aulas. Atualmente, esse controle é realizado manualmente por meio de folhas de
+registro, o que pode resultar em esquecimentos, falta de preenchimento e dificuldade
+para identificar possíveis divergências.
+Diante desse cenário, a aplicação proposta busca centralizar e organizar essas
+informações, permitindo uma visualização mais clara das ocorrências e dos recursos
+da instituição. Entre as funcionalidades planejadas estão o gerenciamento de
+ocorrências, controle dos carrinhos de notebooks, cadastro de equipamentos,
+acompanhamento de manutenção preventiva, dashboard de informações, relatórios
+e controle de materiais e peças utilizados nas manutenções.
+A motivação para o desenvolvimento do projeto surgiu a partir da observação de
+necessidades reais da instituição e da busca por uma solução que possa contribuir
+para melhorar a comunicação, a organização dos atendimentos e o controle dos
+recursos disponíveis nos ambientes acadêmicos. Neste semestre, será desenvolvido
+um protótipo estático da aplicação Web, com foco na estrutura e na experiência visual
+das principais telas e funcionalidades do sistema.)
 - [Objetivos](#-objetivos)
 - [Metodologia](#-metodologia)
 - [2. Requisitos](#2-requisitos)
