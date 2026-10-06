@@ -62,39 +62,52 @@ O objetivo da aplicação Web é propor uma solução centralizada para auxiliar
 organização e no acompanhamento das ocorrências, manutenções e equipamentos
 da FATEC, facilitando a comunicação entre alunos, professores, auxiliares docentes
 e demais responsáveis pela infraestrutura da instituição.
+
 Como objetivos específicos, o projeto busca:
+
 • Organizar e centralizar o registro de ocorrências relacionadas à tecnologia e à
 infraestrutura;
+
 • Facilitar o acompanhamento do status e do atendimento das ocorrências;
+
 • Melhorar a comunicação entre os usuários e a equipe responsável pela
 manutenção;
+
 • Propor uma forma digital de controle e conferência dos carrinhos de notebooks;
 • Organizar informações sobre os equipamentos existentes nas salas e
 laboratórios;
+
 • Apoiar o controle e o planejamento de manutenções preventivas;
+
 • Apresentar informações relevantes por meio de dashboards e relatórios;
+
 • Propor uma interface intuitiva e de fácil utilização pelos diferentes usuários da
 instituição.
+
 Neste semestre, o objetivo prático é desenvolver um protótipo estático e navegável
 da aplicação Web, demonstrando a estrutura, os fluxos de utilização e a interface das
 principais funcionalidades propostas.
+
 ## • Metodologia
 Para o desenvolvimento do projeto será utilizada uma abordagem de pesquisa
 aplicada, buscando compreender as necessidades relacionadas à gestão de
 ocorrências, manutenção e controle de equipamentos no ambiente acadêmico.
+
 Inicialmente, será realizada a observação do funcionamento das atividades dos
 auxiliares docentes e o levantamento dos principais problemas enfrentados no
 atendimento de ocorrências, na comunicação entre as equipes e no controle dos
 equipamentos e carrinhos de notebooks.
+
 A partir dos problemas identificados, foram levantados os requisitos e definidas as
 principais funcionalidades da aplicação. Serão elaborados os fluxos de navegação, a
 estrutura das telas e o protótipo da interface utilizando tecnologias de
 desenvolvimento Web, como HTML, CSS e Javascript.
+
 A pesquisa e o desenvolvimento serão realizados durante o semestre letivo, tendo
 como ambiente de estudo a unidade da FATEC envolvida no projeto. Nesta primeira
 etapa, o resultado será um protótipo estático e navegável, desenvolvido com foco na
 representação visual da solução e na experiência de uso, servindo como base para
-uma implementação funcional em etapas futura
+uma implementação funcional em etapas futura.
 
 # 2. Requisitos
 
