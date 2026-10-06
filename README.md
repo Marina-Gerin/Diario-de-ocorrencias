@@ -264,11 +264,17 @@ dados.
 RNF08 — Acessibilidade
 O sistema precisa ser acessível para todos os usuários, por definição do Wcag (Web Content
 Accessibility Guidelines) será utilizado:
+
 • Uso de cor + ícone + texto para indicar status/prioridade, nunca só cor.
+
 • Contraste mínimo adequado entre texto e fundo.
+
 • Labels associados a todos os campos de formulário.
+
 • Área de toque adequada para uso rápido em celular.
+
 • Texto alternativo em imagens anexadas às ocorrências.
+
 • Navegação por teclado nas telas principais.
 
 RNF09 — Proteção de dados pessoais (LGPD)
