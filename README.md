@@ -97,6 +97,7 @@ uma implementação funcional em etapas futura
 
 ## • Requisitos funcionais
 RF01 — Gerenciar ocorrências
+
 O sistema deve permitir o registro de ocorrências com os seguintes atributos:
 1. ID da ocorrência
 2. Categoria (Tecnologias ou Infraestrutura)
