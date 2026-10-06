@@ -35,18 +35,21 @@ e infraestrutura, como televisores, aparelhos de ar-condicionado, cadeiras e out
 recursos das salas e laboratórios, podem apresentar dificuldades de comunicação,
 organização e acompanhamento entre professores, alunos e a equipe responsável
 pelo atendimento.
+
 Outro problema identificado está relacionado aos carrinhos de notebooks presentes
 em algumas salas e laboratórios. Cada carrinho possui aproximadamente 20
 notebooks, que precisam ser conferidos pelos professores no início e no final das
 aulas. Atualmente, esse controle é realizado manualmente por meio de folhas de
 registro, o que pode resultar em esquecimentos, falta de preenchimento e dificuldade
 para identificar possíveis divergências.
+
 Diante desse cenário, a aplicação proposta busca centralizar e organizar essas
 informações, permitindo uma visualização mais clara das ocorrências e dos recursos
 da instituição. Entre as funcionalidades planejadas estão o gerenciamento de
 ocorrências, controle dos carrinhos de notebooks, cadastro de equipamentos,
 acompanhamento de manutenção preventiva, dashboard de informações, relatórios
 e controle de materiais e peças utilizados nas manutenções.
+
 A motivação para o desenvolvimento do projeto surgiu a partir da observação de
 necessidades reais da instituição e da busca por uma solução que possa contribuir
 para melhorar a comunicação, a organização dos atendimentos e o controle dos
