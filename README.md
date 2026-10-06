@@ -122,11 +122,12 @@ O sistema deve permitir o registro de ocorrências com os seguintes atributos:
 5. Prioridade da ocorrência (baixa, média, alta, crítica)
 6. Status (Aberta, Em análise, Em andamento, Aguardando peça/material/manutenção
 externa, Resolvida, Encerrada)
-7. 8. 9. Data e horário de abertura da ocorrência
-Descrição do problema e/ou observações do professor(a)
-Equipamento(s) relacionado(s) — pode haver mais de um por ocorrência
+7. Data e horário de abertura da ocorrência
+8. Descrição do problema e/ou observações do professor(a)
+9. Equipamento(s) relacionado(s) — pode haver mais de um por ocorrência
 
 RF02 — Controlar carrinhos de notebooks via QR Code ou Link
+
 O sistema deve permitir o registro de controle dos carinhos de notebooks com os seguintes
 atributos:
 1. Login/identificação do professor responsável
@@ -135,30 +136,34 @@ atributos:
 4. Identificação do carrinho
 
 RF03 — Checklist de devolução do carrinho
+
 O sistema deve permitir o checklist de devolução dos carinhos de notebooks com os seguintes
 atributos:
-1. 2. 3. 4. Conferência dos notebooks do carrinho
-Pergunta obrigatória: houve ocorrência durante o uso? (Sim/Não)
-Se "Sim": abertura de formulário de ocorrência (categoria da ocorrência, tipo de problema,
+1. Conferência dos notebooks do carrinho
+2. Pergunta obrigatória: houve ocorrência durante o uso? (Sim/Não)
+3. Se "Sim": abertura de formulário de ocorrência (categoria da ocorrência, tipo de problema,
 equipamento, descrição)
-Registro de data/horário de devolução
+4. Registro de data/horário de devolução
 
 RF04 — Cadastrar e gerenciar equipamentos
+
 O sistema deve permitir o cadastramento e gerenciamento de equipamentos com os seguintes
 atributos:
-1. 2. 3. Bloco, sala, patrimônio/ID, tipo, modelo, data de recebimento, status, observações
-Atualização de localização (movimentação entre salas)
-Histórico de alterações e ocorrências vinculadas ao equipamento
+1. Bloco, sala, patrimônio/ID, tipo, modelo, data de recebimento, status, observações
+2. Atualização de localização (movimentação entre salas)
+3. Histórico de alterações e ocorrências vinculadas ao equipamento
 
 RF05 — Cadastrar e gerenciar manutenção preventiva
+
 O sistema deve permitir o cadastramento e gerenciamento das manutenções preventivas dos
 equipamentos com os seguintes atributos:
 1. Separação por Tecnologia (computadores, monitores, cabos, periféricos) e Infraestrutura
 (ar-condicionado, TVs, projetores, cadeiras, tomadas, iluminação, estrutura)
-2. 3. Checklist com data/horário, auxiliar responsável, sala, itens verificados, observações
-Geração automática de ocorrência quando um item do checklist for reprovado
+2. Checklist com data/horário, auxiliar responsável, sala, itens verificados, observações
+3. Geração automática de ocorrência quando um item do checklist for reprovado
 
 RF06 — Exibir dashboard
+
 O sistema deve permitir a visualização do dashboard no sistema com os seguintes atributos:
 1. Filtro por data/período
 2. Ocorrências por prioridade
@@ -166,6 +171,7 @@ O sistema deve permitir a visualização do dashboard no sistema com os seguinte
 4. Histórico de ocorrências resolvidas/encerradas
 
 RF07 — Gerar e exportar relatórios
+
 O sistema deve gerar e exportar relatórios de acordo com as necessidades estabelecidas com os
 seguintes atributos:
 1. Períodos: semanal, mensal, anual
@@ -173,57 +179,62 @@ seguintes atributos:
 realizadas, ocorrências com manutenção externa, demandas que exigem recursos/verba
 3. Exportação em PDF e/ou Excel
 
-RF08 — Gerenciar estoque de peças e materiais
-O sistema deve permitir o gerenciamento de estoque de peças e materiais utilizados em
-manutenções com os seguintes atributos:
-1. Cadastro de item, quantidade, unidade, status
-2. Baixa automática de estoque ao vincular material usado a uma ocorrência/manutenção
-3. Histórico de movimentação (o quê, quando, em qual atendimento, por quem)
    
-RF09 — Gerenciar acesso por perfil de usuário
+RF08 — Gerenciar acesso por perfil de usuário
+
 O sistema deve gerenciar o acesso dos usuários do sistema com os seguintes atributos:
 1. Perfis: professor, auxiliar docente, gestor/coordenador
 2. Permissões diferentes por tela
 
-RF10 — Autenticar usuários
+RF09 — Autenticar usuários
+
 O sistema deve autenticar o acesso dos usuários do sistema com os seguintes atributos:
 1. Login com identificação e senha
 2. Diferenciação de perfil
 
-RF11 — Cadastrar usuários
+RF10 — Cadastrar usuários
+
 O sistema deve permitir o cadastramento dos usuários do sistema com os seguintes atributos:
 1. Nome, e-mail institucional, senha, perfil de acesso
 2. Auto cadastro com aprovação dos Auxiliares Docentes
 
-RF12 — Recuperar senha
+RF11 — Recuperar senha
+
 O sistema deve permitir a recuperação de senha dos usuários do sistema com os seguintes
 atributos:
 1. Solicitação de redefinição via e-mail institucional
-RF13 — Consultar detalhe e histórico da ocorrência
+   
+RF12 — Consultar detalhe e histórico da ocorrência
+
 O sistema deve consultar o histórico de ocorrências com os seguintes atributos:
 1. Linha do tempo com todas as mudanças de status, data/horário de cada mudança e
 responsável dos equipamentos
 2. Campo de comentários para comunicação entre quem abriu e quem está atendendo
-RF14 — Consultar histórico pessoal (professor)
+
+RF13 — Consultar histórico pessoal (professor)
+
 O sistema deve consultar o histórico pessoal dos professores com os seguintes atributos:
 1. Lista de conferência dos carrinhos usados com data/horário, turma, disciplina e sala
 utilizada
 2. Lista de ocorrências abertas pelo próprio professor
 
-RF15 — Notificar alertas
+RF14 — Notificar alertas
+
 O sistema deve disparar alertas para os auxiliares docentes em caso de:
 1. Carrinho aberto além do tempo esperado
 2. Estoque abaixo do mínimo definido
 3. Ocorrência crítica sem atendimento
 
-RF16 — Gerenciar perfil do usuário
+RF15 — Gerenciar perfil do usuário
+
 O sistema deve permitir o gerenciamento dos seguintes dados do perfil dos usuários:
 1. Visualizar e editar dados próprios (nome, e-mail, senha)
 
-RF17 — Parametrizar categorias, prioridades e prazos
+RF16 — Parametrizar categorias, prioridades e prazos
+
 O sistema deve permitir o gerenciamento dos seguintes dados das ocorrências:
-1. 2. Cadastro/edição de categorias e subcategorias de ocorrência
-Definição de prazo (SLA) esperado por nível de prioridade
+1. Cadastro/edição de categorias e subcategorias de ocorrência
+2. Definição de prazo (SLA) esperado por nível de prioridade
 
 ## • Requisitos não funcionais
 RNF01 — Usabilidade
@@ -240,7 +251,7 @@ RNF04 — Segurança
 Autenticação obrigatória para qualquer registro no sistema; controle de acesso por perfil.
 
 RNF05 — Disponibilidade
-Sistema deve estar acessível durante o horário de funcionamento da unidade.
+Sistema deve estar acessível durante as 24hrs do dia.
 
 RNF06 — Manutenibilidade
 Código organizado em módulos (ocorrências, carrinhos, equipamentos, estoque) para facilitar
