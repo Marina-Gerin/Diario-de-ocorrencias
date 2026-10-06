@@ -264,7 +264,6 @@ dados.
 RNF08 — Acessibilidade
 O sistema precisa ser acessível para todos os usuários, por definição do Wcag (Web Content
 Accessibility Guidelines) será utilizado:
-
 • Uso de cor + ícone + texto para indicar status/prioridade, nunca só cor.
 
 • Contraste mínimo adequado entre texto e fundo.
