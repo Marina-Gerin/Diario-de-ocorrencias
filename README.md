@@ -169,6 +169,7 @@ O sistema deve permitir a visualização do dashboard no sistema com os seguinte
 2. Ocorrências por prioridade
 3. Tabela de ocorrências abertas (ID, local, problema, prioridade, status, responsável)
 4. Histórico de ocorrências resolvidas/encerradas
+5. Identificação de manutenção
 
 RF07 — Gerar e exportar relatórios
 
@@ -196,7 +197,7 @@ RF10 — Cadastrar usuários
 
 O sistema deve permitir o cadastramento dos usuários do sistema com os seguintes atributos:
 1. Nome, e-mail institucional, senha, perfil de acesso
-2. Auto cadastro com aprovação dos Auxiliares Docentes
+2. Cadastro com aprovação dos Auxiliares Docentes
 
 RF11 — Recuperar senha
 
@@ -222,8 +223,7 @@ RF14 — Notificar alertas
 
 O sistema deve disparar alertas para os auxiliares docentes em caso de:
 1. Carrinho aberto além do tempo esperado
-2. Estoque abaixo do mínimo definido
-3. Ocorrência crítica sem atendimento
+2. Ocorrência crítica sem atendimento
 
 RF15 — Gerenciar perfil do usuário
 
