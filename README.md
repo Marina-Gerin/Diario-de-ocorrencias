@@ -537,9 +537,13 @@ exemplo) e apresente aqui, indicando o link).
 
 # 12. Considerações finais
 Este documento apresentou a descrição, os requisitos, o estudo de viabilidade, as regras de negócio, o design, a modelagem de dados e o protótipo do Diário de Ocorrências, um sistema Web que busca centralizar o registro e o acompanhamento de ocorrências de tecnologia e infraestrutura da FATEC de Jaú, o controle digital dos carrinhos de notebooks, o cadastro de equipamentos e a manutenção preventiva.
+
 Neste primeiro semestre de desenvolvimento, o grupo entregou um protótipo estático e navegável, construído com HTML, CSS e JavaScript e apoiado em 17 wireframes de baixa fidelidade, que cobre os fluxos de acesso, ocorrências, carrinhos, equipamentos, manutenção preventiva, relatórios, alertas e gestão de usuários para os três perfis previstos (professor, auxiliar docente e gestor). Foram levantados 17 requisitos funcionais e 11 requisitos não funcionais, e a identidade visual seguiu a do Centro Paula Souza, com atenção à acessibilidade conforme as diretrizes do WCAG. Também foram elaborados os modelos conceitual, de classes e lógico dos dados, o que antecipa o trabalho do próximo semestre. 
+
 O projeto tem limitações que o grupo reconhece. Por ser um protótipo estático, o sistema não armazena dados e simula funções que dependem de servidor, como o envio de e-mails, a leitura de QR Code, o cálculo dos alertas e a exportação de relatórios. Os modelos de dados correspondem a uma primeira versão e ainda precisam de revisão e normalização, conforme descrito na seção 6.5. Outros pontos ficaram para a próxima etapa: o perfil de aluno para abertura de ocorrências, o controle de materiais e peças, os anexos de imagem nas ocorrências e a melhoria do contraste nas bordas dos campos. 
+
 Como próximos passos, o grupo pretende validar o protótipo com os auxiliares docentes e os professores, revisar e alinhar os três modelos de dados, criar o banco de dados e o script SQL, desenvolver o back-end com autenticação, perfis e regras de negócio, e integrá-lo às telas já construídas, sempre observando a Lei Geral de Proteção de Dados. Espera-se que a solução reduza o retrabalho do controle manual em folhas de registro, melhore a comunicação entre professores e auxiliares docentes e forneça informações organizadas para a gestão da unidade e para pedidos de recursos junto à direção. 
+
 Por fim, o desenvolvimento do projeto permitiu ao grupo aplicar, em um problema real da instituição, os conteúdos estudados no curso, como levantamento de requisitos, design de interfaces, programação Web e modelagem de dados, além de exercitar o trabalho em equipe e a organização das tarefas ao longo do semestre. 
 
 # 11. Referências# Diario-de-ocorrencias
