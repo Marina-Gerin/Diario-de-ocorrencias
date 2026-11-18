@@ -530,8 +530,8 @@ Fonte: Elaborado pelos autores (2026).
 Na passagem dos wireframes para o protótipo, a estrutura das telas foi mantida e acrescentaram-se a identidade visual, o conteúdo de demonstração, a tela de verificação em duas etapas (código de 6 dígitos) e a janela modal de cadastro de equipamento, que foram definidas diretamente no protótipo. A adaptação das telas para o celular será validada na etapa seguinte, conforme o requisito RNF02. 
 
 # 10. Protótipo
-(Gere um protótipo funcional na ferramenta que se sentir mais confortável (Figma, por
-exemplo) e apresente aqui, indicando o link).
+
+https://www.figma.com/proto/MIFDjZUKeCO5TbtrztowCu/prot%C3%B3tipo-navegavel?node-id=3-102&p=f&t=1JAWgLzyOZwNqF9W-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A11
 
 # 11. Aplicação
 
